@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+/* Левый вырез */
+.clip-left {
+    --c: 60px;
+    clip-path: circle(96px at 0% 0%);
+    aspect-ratio: 3/2;
+    mask: radial-gradient(60% var(--c) at bottom,#0000 calc(100% - 2px),#000);
+    rotate: 60deg;
+}
+
+/* Правый вырез */
+.clip-right {
+    --c: 60px;
+    clip-path: circle(96px at 100% 0%);
+    aspect-ratio: 3/2;
+    mask: radial-gradient(60% var(--c) at bottom,#0000 calc(100% - 2px),#000);
+    rotate: -60deg;
+}
+
+@keyframes shine {
+    0% {
+        left: -150px;
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.8;
+    }
+    50% {
+        left: 100%;
+        opacity: 0.8;
+    }
+    60% {
+        opacity: 0.4;
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}
+
+.animate-shine {
+    animation: shine 10s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+}
