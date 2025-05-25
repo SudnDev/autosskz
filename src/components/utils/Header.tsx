@@ -12,17 +12,17 @@ function Header() {
                     </h1>
 
                     <div className="flex flex-col sm:flex-row sm:items-center gap-4 pr-3">
-                        <a className="flex items-center gap-2 max-sm:hidden" href="/">
+                        <a className="flex items-center gap-2 max-sm:hidden" href="/public">
                             <img src="/header/email.png" alt="Email" className="w-6 h-6" />
                             <span className="text-gray-700 font-bold text-xl">autospec@service.kz</span>
                         </a>
-                        <a className="flex items-center gap-2" href="/">
+                        <a className="flex items-center gap-2" href="/public">
                             <img src="/header/phone.png" alt="Phone Number" className="w-6 h-6" />
                             <span className="text-gray-700 font-bold text-xl">8 800 800-80-80</span>
                         </a>
                         <button
                             type="button"
-                            className="relative overflow-hidden max-sm:hidden hover:text-white border-2 border-orange-400 hover:bg-orange-500 font-medium rounded-2xl text-sm px-3 py-1.5 text-center"
+                            className="relative overflow-hidden max-sm:hidden hover:text-white border-2 border-orange-400 hover:bg-orange-500 font-medium rounded-2xl text-sm px-3 py-1.5 text-center transition-colors duration-300"
                         >
                             <span className="relative z-10">Заказать звонок</span>
                             <span className="absolute top-0 left-[-75px] h-full w-[100px] rotate-[35deg] bg-orange-500 opacity-100 pointer-events-none animate-shine z-0" />

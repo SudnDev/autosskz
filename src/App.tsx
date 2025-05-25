@@ -1,7 +1,7 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import { lazy } from "react";
-import Layout from "./pages/utils/Layout.tsx";
+import Layout from "./components/utils/Layout.tsx";
 
 import './index.css';
 
