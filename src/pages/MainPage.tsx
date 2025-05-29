@@ -4,8 +4,10 @@ import { TechBrand } from "../types/TechBrand.ts";
 import * as Slider from '@radix-ui/react-slider';
 import { Zap, Shield, Wrench, Award } from 'lucide-react';
 import MainPageHeroImage from "../components/TiltImage.tsx";
+import { useModal } from "../components/OfferModal.tsx";
 
 const MainPage = () => {
+    const { showModal } = useModal();
 
     const itemsPerPage = 4;
     const [page] = useState(0);
@@ -274,11 +276,11 @@ const MainPage = () => {
                                     <div className="flex flex-col gap-2">
                                         {product.newPrice ? (
                                             <>
-                                                <p className="-mt-2 text-sm line-through text-gray-400">{product.price.toLocaleString()} ₽</p>
-                                                <p className="-mt-4 text-xl font-bold text-orange-500">{product.newPrice.toLocaleString()} ₽</p>
+                                                <p className="-mt-2 text-sm line-through text-gray-400">{product.price.toLocaleString('RU-ru')} ₽</p>
+                                                <p className="-mt-4 text-xl font-bold text-orange-500">{product.newPrice.toLocaleString('RU-ru')} ₽</p>
                                             </>
                                         ) : (
-                                            <p className="text-xl font-bold text-gray-900">{product.price.toLocaleString()} ₽</p>
+                                            <p className="text-xl font-bold text-gray-900">{product.price.toLocaleString('RU-ru')} ₽</p>
                                         )}
                                         <div className="grid grid-cols-2 gap-2">
                                             <button
@@ -289,7 +291,7 @@ const MainPage = () => {
                                                 <span className="absolute top-0 left-[-75px] h-full w-[100px] rotate-[35deg] bg-gray-500 opacity-100 pointer-events-none animate-shine z-0" />
                                             </button>
                                             <button
-                                                type="button"
+                                                onClick={() => showModal(<></>)}
                                                 className="relative overflow-hidden max-sm:hidden hover:text-black border-2 hover:bg-red-500 border-red-500 hover:border-red-600 font-medium rounded-2xl text-sm px-3 py-1.5 text-center transition-colors duration-300"
                                             >
                                                 <span className="relative z-10">Получить предложение</span>

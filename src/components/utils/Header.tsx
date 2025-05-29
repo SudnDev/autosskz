@@ -1,4 +1,8 @@
+import {useModal} from "../OfferModal.tsx";
+
 function Header() {
+    const { showModal } = useModal();
+
     return (
         <header className="sticky top-0 bg-white flex h-24 z-10000 w-full lg:w-4/5 max-sm:justify-center x-center mx-auto rounded-b-4xl lg:rounded-5xl">
 
@@ -21,7 +25,7 @@ function Header() {
                             <span className="text-gray-700 font-bold text-xl">8 800 800-80-80</span>
                         </a>
                         <button
-                            type="button"
+                            onClick={() => showModal(<></>)}
                             className="relative overflow-hidden max-sm:hidden hover:text-white border-2 border-orange-400 hover:bg-orange-500 font-medium rounded-2xl text-sm px-3 py-1.5 text-center transition-colors duration-300"
                         >
                             <span className="relative z-10">Заказать звонок</span>
