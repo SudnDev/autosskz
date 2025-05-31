@@ -181,7 +181,7 @@ export const techItems: TechItem[] = [
         tag: null,
         price: 1_065_000,
         newPrice: null,
-        category: [TechCategory.FRONT_LOADER],
+        category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_MINI],
         images: [
             "/techItems/zvezda-zl10/front.jpg",
             "/techItems/zvezda-zl10/side.jpg",

@@ -1,6 +1,11 @@
+import Header from "../../components/utils/Header.tsx";
+
 const NotFoundPage = () => {
     return (
         <div>
+            <Header />
+            <div className="absolute top-[-1.5rem] left-[8rem] w-[124px] h-[124px] bg-white rounded-full clip-left z-100" />
+            <div className="absolute top-[-1.5rem] right-[8rem] w-[124px] h-[124px] bg-white rounded-full clip-right z-100" />
             <section className="relative w-full h-screen overflow-x-hidden -mt-25">
 
                 <div className="absolute inset-0 w-full h-full bg-[#DFFFEE] z-10" />
@@ -16,13 +21,15 @@ const NotFoundPage = () => {
                                 <br/>
                                 (404 NOT FOUND)
                             </h1>
-                            <button
-                                type="button"
-                                className="relative overflow-hidden max-sm:hidden hover:text-white border-2 border-orange-400 hover:bg-orange-500 font-medium rounded-2xl text-lg px-3 py-1.5 text-center transition-colors duration-300"
-                            >
-                                <span className="relative z-10">На главную</span>
-                                <span className="absolute top-0 left-[-75px] h-full w-[200px] rotate-[35deg] bg-orange-500 opacity-100 pointer-events-none animate-shine z-0" />
-                            </button>
+                            <a href="/">
+                                <button
+                                    type="button"
+                                    className="relative overflow-hidden max-sm:hidden hover:text-white border-2 border-orange-400 hover:bg-orange-500 font-medium rounded-2xl text-lg px-3 py-1.5 text-center transition-colors duration-300 cursor-pointer"
+                                >
+                                    <span className="relative z-10">На главную</span>
+                                    <span className="absolute top-0 left-[-75px] h-full w-[200px] rotate-[35deg] bg-orange-500 opacity-100 pointer-events-none animate-shine z-0" />
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,18 @@
 export enum TechCategory {
     FRONT_LOADER = "Фронтальный погрузчик",
+    FRONT_LOADER_MINI = "Мини фронтальный погрузчик",
+    FRONT_LOADER_UNIVERSAL = "Универсальный фронтальный погрузчик",
+    FRONT_LOADER_GREAT = "Большой фронтальный погрузчик",
+    FRONT_LOADER_1_TON = "Фронтальный погрузчик 1 тонна",
+    FRONT_LOADER_2_TON = "Фронтальный погрузчик 2 тонна",
+    FRONT_LOADER_1M3 = "Фронтальный погрузчик 1 м3",
     TELESCOPIC_HANDLER = "Телескопический погрузчик",
     BACKHOE_LOADER = "Экскаватор-погрузчик",
+    "MINI_LOADER" = "Мини-погрузчик",
+    "DIESEL_LOADER" = "Дизельный погрузчик",
+    "BATTERY_POWERED_LOADER" = "Аккумуляторный погрузчик",
+    "CONSTRUCTIONAL_LOADER" = "Строительный погрузчик",
+    "AGRICULTURAL_LOADER" = "Сельхоз погрузчик",
+    "FOREST_LOADER" = "Погрузчик для леса",
+    "SNOW_LOADER" = "Погрузчик для снега",
 }
