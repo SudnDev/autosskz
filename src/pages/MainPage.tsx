@@ -7,6 +7,7 @@ import MainPageHeroImage from "../components/TiltImage.tsx";
 import { useModal } from "../components/OfferModal.tsx";
 import Header from "../components/utils/Header.tsx";
 import ItemCard from "../components/Catalog/ItemCard.tsx";
+import Footer from "../components/utils/Footer.tsx";
 
 const MainPage = () => {
     const { showModal } = useModal();
@@ -125,7 +126,7 @@ const MainPage = () => {
 
                             <button
                                 onClick={scrollToModels}
-                                className="relative overflow-hidden mt-6 hover:text-white border-2 border-blue-500 hover:bg-blue-500 font-medium rounded-2xl text-base sm:text-lg px-4 py-1.5 text-center active:scale-95 transition-colors duration-300"
+                                className="relative overflow-hidden mt-6 hover:text-white border-2 border-blue-500 hover:bg-blue-500 font-medium rounded-2xl text-base sm:text-lg px-4 py-1.5 text-center active:scale-95 transition-colors duration-300 cursor-pointer"
                             >
                                 <span className="relative z-10">Посмотреть модели</span>
                                 <span className="absolute top-0 left-[-150px] h-full w-[200px] rotate-[35deg] bg-blue-500 opacity-100 pointer-events-none animate-shine z-0" />
@@ -239,6 +240,9 @@ const MainPage = () => {
                         ))}
                     </div>
                 </div>
+            </section>
+            <section className="bg-gray-100" id="footer">
+                <Footer />
             </section>
         </div>
     );

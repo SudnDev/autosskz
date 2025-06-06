@@ -80,14 +80,14 @@ const ItemCard: React.FC<ProductCardProps> = ({ item, showModal }) => {
                     <div className="grid grid-cols-2 gap-2">
                         <button
                             onClick={() => navigate(`/catalog/${getTechCategoryKey(item.category[0])}/${item.id}`)}
-                            className="relative overflow-hidden hover:text-black border-2 border-gray-300 hover:border-gray-400 font-medium rounded-2xl text-sm px-3 py-1.5 text-center transition-colors duration-300"
+                            className="relative overflow-hidden hover:text-black border-2 border-gray-300 hover:border-gray-400 font-medium rounded-2xl text-sm px-3 py-1.5 text-center transition-colors duration-300 cursor-pointer"
                         >
                             <span className="relative z-10">Подробнее →</span>
                             <span className="absolute top-0 left-[-75px] h-full w-[200px] rotate-[35deg] bg-gray-500 opacity-100 pointer-events-none animate-shine z-0" />
                         </button>
                         <button
                             onClick={() => showModal(<></>)}
-                            className=" relative overflow-hidden max-sm:hidden hover:text-black border-2 hover:bg-red-500 border-red-500 hover:border-red-600 font-medium rounded-2xl text-sm px-3 py-1.5 text-center transition-colors duration-300"
+                            className=" relative overflow-hidden max-sm:hidden hover:text-black border-2 hover:bg-red-500 border-red-500 hover:border-red-600 font-medium rounded-2xl text-sm px-3 py-1.5 text-center transition-colors duration-300 cursor-pointer"
                         >
                             <span className="relative z-10">Получить предложение</span>
                             <span className="absolute top-0 left-[-75px] h-full w-[200px] rotate-[35deg] bg-red-600 opacity-100 pointer-events-none animate-shine z-0" />

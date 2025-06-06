@@ -44,3 +44,29 @@
 .animate-shine {
     animation: shine 10s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 }
+
+.menu-item {
+    position: relative;
+    padding-left: 1.5rem;
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: ellipsis;
+}
+
+.menu-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #e5e7eb;
+    border-radius: 2px;
+    transition: all 0.2s;
+}
+
+.menu-item:hover::before {
+    background-color: #dc2626;
+    transform: translateY(-50%) rotate(45deg);
+}
