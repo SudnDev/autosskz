@@ -1,4 +1,5 @@
 import Header from "../../components/utils/Header.tsx";
+import Footer from "../../components/utils/Footer.tsx";
 
 const NotFoundPage = () => {
     return (
@@ -33,6 +34,9 @@ const NotFoundPage = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section className="bg-gray-100" id="footer">
+                <Footer />
             </section>
         </div>
     );

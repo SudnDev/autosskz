@@ -86,7 +86,16 @@ const ItemCard: React.FC<ProductCardProps> = ({ item, showModal }) => {
                             <span className="absolute top-0 left-[-75px] h-full w-[200px] rotate-[35deg] bg-gray-500 opacity-100 pointer-events-none animate-shine z-0" />
                         </button>
                         <button
-                            onClick={() => showModal(<></>)}
+                            onClick={() => showModal(
+                                <a
+                                    href={`https://wa.me/77024487217?text=${encodeURIComponent(`Здравствуйте, хочу получить предложение на ${item.name}`)}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="block px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
+                                >
+                                    Написать в WhatsApp
+                                </a>
+                            )}
                             className=" relative overflow-hidden max-sm:hidden hover:text-black border-2 hover:bg-red-500 border-red-500 hover:border-red-600 font-medium rounded-2xl text-sm px-3 py-1.5 text-center transition-colors duration-300 cursor-pointer"
                         >
                             <span className="relative z-10">Получить предложение</span>

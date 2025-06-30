@@ -18,19 +18,28 @@ function Header() {
                     </a>
 
                     <div className="flex flex-col sm:flex-row sm:items-center gap-4 pr-3">
-                        <a className="flex items-center gap-2 max-lg:hidden" href="/public">
+                        <a className="flex items-center gap-2 max-lg:hidden" href="mailto:avtospetsserviskz@yandex.kz" target="_blank">
                             <img src="/header/email.png" alt="Email" className="w-6 h-6" />
-                            <span className="text-gray-700 font-bold text-xl">autospec@service.kz</span>
+                            <span className="text-gray-700 font-bold text-xl">avtospetsserviskz@yandex.kz</span>
                         </a>
-                        <a className="flex items-center gap-2" href="/public">
+                        <a className="flex items-center gap-2" href="tel:+77024487217" target="_blank">
                             <img src="/header/phone.png" alt="Phone Number" className="w-6 h-6" />
-                            <span className="text-gray-700 font-bold text-xl">8 800 800-80-80</span>
+                            <span className="text-gray-700 font-bold text-xl">+7 702 448 7217</span>
                         </a>
                         <button
-                            onClick={() => showModal(<></>)}
+                            onClick={() => showModal(
+                                <a
+                                    href={`https://wa.me/77024487217`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="block px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
+                                >
+                                    Написать в WhatsApp
+                                </a>
+                            )}
                             className="relative overflow-hidden max-sm:hidden hover:text-white border-2 border-orange-400 hover:bg-orange-500 font-medium rounded-2xl text-sm px-3 py-1.5 text-center transition-colors duration-300 cursor-pointer"
                         >
-                            <span className="relative z-10">Заказать звонок</span>
+                            <span className="relative z-10">Связаться</span>
                             <span className="absolute top-0 left-[-75px] h-full w-[100px] rotate-[35deg] bg-orange-500 opacity-100 pointer-events-none animate-shine z-0" />
                         </button>
                     </div>
@@ -47,6 +56,10 @@ function Header() {
                     </button>
                     <button className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer">
                         Сервис и гарантия
+                        <span className="absolute left-0 bottom-0 w-full h-[2px] bg-teal-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-85"></span>
+                    </button>
+                    <button className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer">
+                        Доставка
                         <span className="absolute left-0 bottom-0 w-full h-[2px] bg-teal-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-85"></span>
                     </button>
                     <button className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer">

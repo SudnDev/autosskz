@@ -6,6 +6,7 @@ import {TechCategory} from "../../types/TechCategory.ts";
 import {useModal} from "../../components/OfferModal.tsx";
 import { useState } from "react";
 import Header from "../../components/utils/Header.tsx";
+import Footer from "../../components/utils/Footer.tsx";
 
 const TechItemPage = () => {
     const { showModal } = useModal();
@@ -252,6 +253,9 @@ const TechItemPage = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section className="bg-gray-100" id="footer">
+                <Footer />
             </section>
         </div>
     )

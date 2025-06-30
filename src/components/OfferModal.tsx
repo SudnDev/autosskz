@@ -27,7 +27,7 @@ export const ModalProvider: React.FC<{ children: ReactNode }> = ({ children }) =
                     className="fixed inset-0 bg-[rgba(0,0,0,0.5)] flex justify-center items-center z-10000"
                     onClick={hideModal}
                 >
-                    <div className="bg-white p-6 rounded shadow-lg" onClick={e => e.stopPropagation()}>
+                    <div className="bg-white p-6 rounded shadow-lg text-center" onClick={e => e.stopPropagation()}>
                         {modalContent}
                         <button
                             onClick={hideModal}

@@ -6,6 +6,7 @@ import {useModal} from "../OfferModal.tsx";
 import ItemCard from "./ItemCard.tsx";
 import * as Slider from "@radix-ui/react-slider";
 import {TechBrand} from "../../types/TechBrand.ts";
+import Footer from "../utils/Footer.tsx";
 
 type TechListProps = {
     items: TechItem[];
@@ -279,6 +280,9 @@ const TechList: React.FC<TechListProps> = ({ items, categoryName }) => {
                     </div>
                 </div>
             </div>
+            <section className="bg-gray-100" id="footer">
+                <Footer />
+            </section>
         </div>
     );
 };

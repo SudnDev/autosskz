@@ -1,4 +1,4 @@
-import { MessageCircle, Radio, Send, Star, Truck, Youtube } from "lucide-react";
+import { Instagram, MessageCircle, Star, Truck } from "lucide-react";
 import React from "react";
 
 function Footer() {
@@ -27,7 +27,7 @@ function Footer() {
                             <Logo name="goodwork" />
                             <Logo name="zvezda" />
                         </div>
-                        <p className="text-sm text-gray-600 mt-4">© ООО "ПромСпецАвто", 2024</p>
+                        <p className="text-sm text-gray-600 mt-4">© ТОО "АвтоСпецСервисКЗ", {new Date().getFullYear()}</p>
                     </div>
                 </div>
             </div>
@@ -41,26 +41,27 @@ const ContactInfo = () => {
         <div className="space-y-3 text-gray-700">
             <div>
                 <p className="text-sm font-medium">Телефон:</p>
-                <a href="tel:88005116885" className="text-base hover:text-blue-600 transition-colors">
-                    8 800 511-68-85
+                <a href="tel:77024487217" className="text-base hover:text-blue-600 transition-colors">
+                    +7 702 448 7217
                 </a>
             </div>
 
             <div>
                 <p className="text-sm font-medium">Электронная почта:</p>
-                <a href="mailto:zakaz+8737@goodwork.su" className="text-base hover:text-blue-600 transition-colors">
-                    zakaz+8737@goodwork.su
+                <a href="mailto:avtospetsserviskz@yandex.kz" className="text-base hover:text-blue-600 transition-colors">
+                    avtospetsserviskz@yandex.kz
                 </a>
             </div>
 
             <div>
                 <p className="text-sm font-medium">Адрес главного офиса:</p>
-                <p className="text-base">г. Уфа, Индустриальное шоссе, 26</p>
+                <p className="text-base">г. Караганда, Улица Терешковой, 1г</p>
             </div>
 
             <div>
                 <p className="text-sm font-medium">Время работы главного офиса:</p>
-                <p className="text-base">Будние дни 9:00 - 17:00 (МСК+2)</p>
+                <p className="text-base">Будние дни 9:00 - 18:00 (обед 13:00 - 14:00)</p>
+                <p className="text-base">Суббота 10:00 - 15:00</p>
             </div>
         </div>
     );
@@ -70,13 +71,13 @@ const SocialLinks = () => {
     return (
         <div className="mt-4 flex space-x-4">
             <a
-                href="https://www.youtube.com"
+                href="https://www.instagram.com/autoss.kz/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon bg-gray-200 hover:bg-gray-300 transition-colors p-2 rounded-full"
-                aria-label="YouTube"
+                aria-label="Instagram"
             >
-                <Youtube size={20} className="text-gray-700 hover:text-red-600 transition-colors" />
+                <Instagram size={20} className="text-gray-700 hover:text-red-600 transition-colors" />
             </a>
             <a
                 href="https://wa.me/"
@@ -86,24 +87,6 @@ const SocialLinks = () => {
                 aria-label="WhatsApp"
             >
                 <MessageCircle size={20} className="text-gray-700 hover:text-red-600 transition-colors" />
-            </a>
-            <a
-                href="https://t.me/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon bg-gray-200 hover:bg-gray-300 transition-colors p-2 rounded-full"
-                aria-label="Telegram"
-            >
-                <Send size={20} className="text-gray-700 hover:text-red-600 transition-colors" />
-            </a>
-            <a
-                href="https://vk.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon bg-gray-200 hover:bg-gray-300 transition-colors p-2 rounded-full"
-                aria-label="VK"
-            >
-                <Radio size={20} className="text-gray-700 hover:text-red-600 transition-colors" />
             </a>
         </div>
     );
@@ -147,7 +130,7 @@ const MenuSection = () => {
 const CompanyInfo = () => {
     return (
         <p className="text-gray-700 leading-relaxed">
-            Более 10 лет опыта в сфере продажи и обслуживания спецтехники. Надежные фронтальные погрузчики из Китая от официального дилера для любых задач.
+            Более 11 лет опыта в сфере продажи и обслуживания спецтехники. Надежные фронтальные погрузчики из Китая от официального дилера для любых задач.
         </p>
     );
 };
@@ -183,7 +166,7 @@ const LegalDisclaimer = () => {
         <div className="bg-gray-900/5 backdrop-blur-sm py-4">
             <div className="container mx-auto px-4">
                 <p className="text-xs text-gray-600 leading-relaxed">
-                    Любая информация, представленная на данном сайте, носит исключительно информационный характер и не является публичной офертой, определяемой положениями статьи 437 ГК РФ. Все права на публикуемые на сайте материалы принадлежат ООО "ПромСпецАвто". Для получения подробной информации о наличии и стоимости указанных товаров и/или услуг, пожалуйста, обращайтесь к нам с помощью специальной формы связи или по единому номеру 8 (800) 511-68-85.
+                    Любая информация, представленная на данном сайте, носит исключительно информационный характер и не является публичной офертой в соответствии со статьей 395 Гражданского кодекса Республики Казахстан. Все права на публикуемые на сайте материалы принадлежат ТОО "АвтоСпецСервисКЗ". Для получения точной информации о наличии и стоимости указанных товаров и/или услуг, пожалуйста, свяжитесь с нами через форму обратной связи или по телефону +7 702 448 7217.
                 </p>
             </div>
         </div>
