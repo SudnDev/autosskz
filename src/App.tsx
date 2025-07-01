@@ -9,6 +9,7 @@ const MainPage = lazy(() => import("./pages/MainPage"));
 const AllCatalogPage = lazy(() => import("./pages/Catalog/AllCatalogPage"));
 const CatalogPage = lazy(() => import("./pages/Catalog/CatalogPage"));
 const TechItemPage = lazy(() => import("./pages/Catalog/TechItemPage"));
+const ContactsPage = lazy(() => import("./pages/ContactsPage"));
 const NotFoundPage = lazy(() => import("./pages/Errors/NotFoundPage"));
 
 function App() {
@@ -21,9 +22,11 @@ function App() {
                 <Routes>
                     <Route index element={<MainPage />} />
 
-                    <Route path="/catalog" element={<AllCatalogPage />}/>
-                    <Route path="/catalog/:category" element={<CatalogPage />}/>
+                    <Route path="/catalog" element={<AllCatalogPage />} />
+                    <Route path="/catalog/:category" element={<CatalogPage />} />
                     <Route path="/catalog/:category/:itemId" element={<TechItemPage />} />
+
+                    <Route path="/contacts" element={<ContactsPage />} />
 
                     <Route path="*" element={<NotFoundPage />} />
             </Routes>

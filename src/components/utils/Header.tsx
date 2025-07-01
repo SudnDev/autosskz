@@ -1,7 +1,10 @@
 import { useModal } from "../OfferModal.tsx";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
     const { showModal } = useModal();
+
+    const navigate = useNavigate();
 
     return (
         <header className="sticky top-0 bg-white flex h-24 z-10000 w-full lg:w-4/5 max-sm:justify-center x-center mx-auto rounded-b-4xl lg:rounded-5xl">
@@ -62,7 +65,10 @@ function Header() {
                         Доставка
                         <span className="absolute left-0 bottom-0 w-full h-[2px] bg-teal-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-85"></span>
                     </button>
-                    <button className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer">
+                    <button
+                        onClick={() => navigate("/contacts")}
+                        className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer"
+                    >
                         Контакты
                         <span className="absolute left-0 bottom-0 w-full h-[2px] bg-teal-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-85"></span>
                     </button>
