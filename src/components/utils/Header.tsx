@@ -49,19 +49,31 @@ function Header() {
                 </div>
 
                 <div className="mt-1 hidden lg:inline-block">
-                    <button className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer">
+                    <button
+                        onClick={() => navigate("/catalog")}
+                        className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer"
+                    >
                         Каталог техники
                         <span className="absolute left-0 bottom-0 w-full h-[2px] bg-teal-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-85"></span>
                     </button>
-                    <button className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer">
+                    <button
+                        onClick={() => navigate("/spares")}
+                        className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer"
+                    >
                         Запчасти для погрузчиков
                         <span className="absolute left-0 bottom-0 w-full h-[2px] bg-teal-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-85"></span>
                     </button>
-                    <button className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer">
+                    <button
+                        onClick={() => navigate("/service-&-warranty")}
+                        className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer"
+                    >
                         Сервис и гарантия
                         <span className="absolute left-0 bottom-0 w-full h-[2px] bg-teal-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-85"></span>
                     </button>
-                    <button className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer">
+                    <button
+                        onClick={() => navigate("/delivery")}
+                        className="relative px-6 py-2 text-black text-lg font-medium group cursor-pointer"
+                    >
                         Доставка
                         <span className="absolute left-0 bottom-0 w-full h-[2px] bg-teal-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-85"></span>
                     </button>
