@@ -1,0 +1,1 @@
+import{j as t}from"./index-Breaz0dL.js";import{T as o}from"./TechList-cI5uHjym.js";import{t as r}from"./techItems-kA36OMbu.js";import"./Footer-C53bNpTr.js";import"./ItemCard-D4RhECO7.js";const p=()=>t.jsx(o,{items:r,categoryName:"Каталог техники"});export{p as default};
