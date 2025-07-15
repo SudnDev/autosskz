@@ -71,11 +71,11 @@ const ItemCard: React.FC<ProductCardProps> = ({ item, showModal }) => {
                 <div className="flex flex-col gap-2">
                     {item.newPrice ? (
                         <>
-                            <p className="-mt-2 text-sm line-through text-gray-400">{item.price.toLocaleString('RU-ru')} ₽</p>
-                            <p className="-mt-4 text-xl font-bold text-orange-500">{item.newPrice.toLocaleString('RU-ru')} ₽</p>
+                            <p className="-mt-2 text-sm line-through text-gray-400">{item.price}</p>
+                            <p className="-mt-4 text-xl font-bold text-orange-500">{item.newPrice}</p>
                         </>
                     ) : (
-                        <p className="text-xl font-bold text-gray-900">{item.price.toLocaleString('RU-ru')} ₽</p>
+                        <p className="text-xl font-bold text-gray-900">{item.price}</p>
                     )}
                     <div className="grid grid-cols-2 gap-2">
                         <button

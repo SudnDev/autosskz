@@ -16,12 +16,13 @@ type TechListProps = {
 const TechList: React.FC<TechListProps> = ({ items, categoryName }) => {
     const { showModal } = useModal();
 
-    const [weightRange, setWeightRange] = useState([400, 2400]);
-    const [volumeRange, setVolumeRange] = useState([200, 1300]);
+    const [weightRange, setWeightRange] = useState([400, 3000]);
+    const [volumeRange, setVolumeRange] = useState([200, 2000]);
     const [selectedBrands, setSelectedBrands] = useState({
         [TechBrand.GoodWork]: false,
         [TechBrand.Zvezda]: false,
-        [TechBrand.Volna]: false
+        [TechBrand.Volna]: false,
+        [TechBrand.Iskra]: false
     });
 
     const filteredProducts = items.filter(item => {
@@ -40,7 +41,8 @@ const TechList: React.FC<TechListProps> = ({ items, categoryName }) => {
         const matchesBrand = Object.values(selectedBrands).every(v => !v) ||
             (item.brand == TechBrand.GoodWork  && selectedBrands.GoodWork) ||
             (item.brand == TechBrand.Zvezda && selectedBrands.Zvezda) ||
-            (item.brand == TechBrand.Volna && selectedBrands.Volna);
+            (item.brand == TechBrand.Volna && selectedBrands.Volna) ||
+            (item.brand == TechBrand.Iskra && selectedBrands.Iskra);
 
         return matchesWeight && matchesVolume && matchesBrand;
     });
@@ -196,7 +198,7 @@ const TechList: React.FC<TechListProps> = ({ items, categoryName }) => {
                                                 value={weightRange}
                                                 onValueChange={setWeightRange}
                                                 min={400}
-                                                max={2400}
+                                                max={3000}
                                                 step={50}
                                             >
                                                 <Slider.Track className="bg-orange-200 border-1 border-orange-900 relative grow rounded-full h-2">
@@ -220,7 +222,7 @@ const TechList: React.FC<TechListProps> = ({ items, categoryName }) => {
                                                 value={volumeRange}
                                                 onValueChange={setVolumeRange}
                                                 min={200}
-                                                max={1300}
+                                                max={2000}
                                                 step={50}
                                             >
                                                 <Slider.Track className="bg-orange-200 border-1 border-orange-900 relative grow rounded-full h-2">

@@ -8,6 +8,7 @@ import { useModal } from "../components/OfferModal.tsx";
 import Header from "../components/utils/Header.tsx";
 import ItemCard from "../components/Catalog/ItemCard.tsx";
 import Footer from "../components/utils/Footer.tsx";
+import Navbar from "../components/Navbar.tsx";
 
 const MainPage = () => {
     const { showModal } = useModal();
@@ -29,7 +30,8 @@ const MainPage = () => {
     const [selectedBrands, setSelectedBrands] = useState({
         [TechBrand.GoodWork]: false,
         [TechBrand.Zvezda]: false,
-        [TechBrand.Volna]: false
+        [TechBrand.Volna]: false,
+        [TechBrand.Iskra]: false,
     });
 
     const filteredProducts = currentItems.filter(product => {
@@ -48,7 +50,8 @@ const MainPage = () => {
         const matchesBrand = Object.values(selectedBrands).every(v => !v) ||
             (product.brand == TechBrand.GoodWork  && selectedBrands.GoodWork) ||
             (product.brand == TechBrand.Zvezda && selectedBrands.Zvezda) ||
-            (product.brand == TechBrand.Volna && selectedBrands.Volna);
+            (product.brand == TechBrand.Volna && selectedBrands.Volna) ||
+            (product.brand == TechBrand.Iskra && selectedBrands.Iskra);
 
         return matchesWeight && matchesVolume && matchesBrand;
     });
@@ -81,6 +84,8 @@ const MainPage = () => {
             <Header />
             <div className="absolute top-[-1.5rem] left-[8rem] w-[124px] h-[124px] bg-white rounded-full clip-left z-100" />
             <div className="absolute top-[-1.5rem] right-[8rem] w-[124px] h-[124px] bg-white rounded-full clip-right z-100" />
+
+            <Navbar />
 
             <section className="relative w-full h-screen overflow-x-hidden lg:-mt-25">
                 {/* Фон-картинка */}

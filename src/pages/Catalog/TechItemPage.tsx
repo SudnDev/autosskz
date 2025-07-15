@@ -123,7 +123,7 @@ const TechItemPage = () => {
 
                                 <div className="bg-[#DFFFEE] rounded-2xl p-6">
                                     <div className="text-3xl font-bold bg-[#DFFFEE] mb-4">
-                                        {techItem.price.toLocaleString('RU-ru')} ₽ <span className="text-sm font-normal text-gray-600">с НДС</span>
+                                        {techItem.price} <span className="text-sm font-normal text-gray-600"></span>
                                     </div>
                                     <button
                                         onClick={() => showModal(<></>)}

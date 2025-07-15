@@ -7,7 +7,7 @@ export type TechItem = {
     brand: TechBrand;
     name: string;
     tag: TechTag | null;
-    price: number;
+    price: string;
     newPrice: number | null;
     category: TechCategory[];
     images: string[];

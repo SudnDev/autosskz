@@ -93,22 +93,20 @@ const SocialLinks = () => {
 };
 
 const menuItems = [
-    { id: 1, name: 'Каталог техники', href: '#' },
-    { id: 2, name: 'Фронтальные погрузчики', href: '#' },
-    { id: 3, name: 'Телескопические погрузчики', href: '#' },
-    { id: 4, name: 'Экскаватор-погрузчики', href: '#' },
-    { id: 5, name: 'Мини-погрузчики', href: '#' },
-    { id: 6, name: 'Дизельные погрузчики', href: '#' },
-    { id: 7, name: 'Аккумуляторные погрузчики', href: '#' },
-    { id: 8, name: 'Строительные погрузчики', href: '#' },
-    { id: 9, name: 'Погрузчики для леса', href: '#' },
-    { id: 10, name: 'Погрузчики для снега', href: '#' },
-    { id: 11, name: 'Погрузчики GoodWork', href: '#' },
-    { id: 12, name: 'Погрузчики ZVEZDA', href: '#' },
-    { id: 13, name: 'Погрузчики VOLNA', href: '#' },
-    { id: 14, name: 'Запчасти для погрузчиков', href: '#' },
-    { id: 15, name: 'Сервис и гарантия', href: '#' },
-    { id: 16, name: 'Контакты', href: '#' },
+    { id: 1, name: 'Каталог техники', href: '/catalog' },
+    { id: 2, name: 'Фронтальные погрузчики', href: '/catalog/FRONT_LOADER' },
+    { id: 3, name: 'Телескопические погрузчики', href: '/catalog/TELESCOPIC_HANDLER' },
+    { id: 4, name: 'Экскаватор-погрузчики', href: '/catalog/BACKHOE_LOADER' },
+    { id: 5, name: 'Мини-погрузчики', href: '/catalog/MINI_LOADER' },
+    { id: 6, name: 'Дизельные погрузчики', href: '/catalog/DIESEL_LOADER' },
+    { id: 7, name: 'Аккумуляторные погрузчики', href: '/catalog/BATTERY_POWERED_LOADER' },
+    { id: 8, name: 'Строительные погрузчики', href: '/catalog/CONSTRUCTIONAL_LOADER' },
+    { id: 9, name: 'Погрузчики для леса', href: '/catalog/FOREST_LOADER' },
+    { id: 10, name: 'Погрузчики для снега', href: '/catalog/SNOW_LOADER' },
+    { id: 11, name: 'Запчасти для погрузчиков', href: '/spares' },
+    { id: 12, name: 'Сервис и гарантия', href: '/service-&-warranty' },
+    { id: 13, name: 'Доставка', href: '/delivery' },
+    { id: 14, name: 'Контакты', href: '/contacts' },
 ];
 
 const MenuSection = () => {
