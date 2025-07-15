@@ -1,0 +1,1 @@
+import{b as r,j as s}from"./index-B1a0Ri1t.js";import{T as m}from"./TechList-BxtqemLD.js";import{a as c,t as i}from"./techItems-DB3ffuiN.js";import"./Footer-CQMeEpVK.js";import"./ItemCard-4y7vSbZY.js";const l=()=>{const{category:e}=r(),t=c[e],a=i.filter(o=>o.category.includes(t));return s.jsx(m,{items:a,categoryName:t})};export{l as default};
