@@ -13,8 +13,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.MINI_LOADER, TechCategory.BATTERY_POWERED_LOADER],
         images: [
-            "/techItems/zvezda-zl05/front.jpg",
-            "/techItems/zvezda-zl05/front2.jpg",
+            "./techItems/zvezda-zl05/front.jpg",
+            "./techItems/zvezda-zl05/front2.jpg",
         ],
         description:
             "• В НАЛИЧИИ на складе в Караганде, доставка по всей Республике Казахстан\n" +
@@ -70,8 +70,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_MINI, TechCategory.MINI_LOADER, TechCategory.AGRICULTURAL_LOADER],
         images: [
-            "/techItems/goodwork-lx50e/side.jpg",
-            "/techItems/goodwork-lx50e/back.jpg",
+            "./techItems/goodwork-lx50e/side.jpg",
+            "./techItems/goodwork-lx50e/back.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -123,10 +123,10 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_UNIVERSAL, TechCategory.FRONT_LOADER_1_TON, TechCategory.FRONT_LOADER_1M3, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.FOREST_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/goodwork-lx280g/front.jpg",
-            "/techItems/goodwork-lx280g/side.jpg",
-            "/techItems/goodwork-lx280g/back.jpg",
-            "/techItems/goodwork-lx280g/cabin.jpg",
+            "./techItems/goodwork-lx280g/front.jpg",
+            "./techItems/goodwork-lx280g/side.jpg",
+            "./techItems/goodwork-lx280g/back.jpg",
+            "./techItems/goodwork-lx280g/cabin.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -193,8 +193,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_MINI, TechCategory.MINI_LOADER, TechCategory.DIESEL_LOADER, TechCategory.AGRICULTURAL_LOADER],
         images: [
-            "/techItems/zvezda-zl08/side.jpg",
-            "/techItems/zvezda-zl08/front.jpg",
+            "./techItems/zvezda-zl08/side.jpg",
+            "./techItems/zvezda-zl08/front.jpg",
         ],
         description:
             "Самое массовое производство = простой и надёжный!\n" +
@@ -253,8 +253,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_MINI, TechCategory.MINI_LOADER, TechCategory.DIESEL_LOADER, TechCategory.AGRICULTURAL_LOADER],
         images: [
-            "/techItems/zvezda-zl10/front.jpg",
-            "/techItems/zvezda-zl10/side.jpg",
+            "./techItems/zvezda-zl10/front.jpg",
+            "./techItems/zvezda-zl10/side.jpg",
         ],
         description:
             "Самое массовое производство = простой и надёжный!\n" +
@@ -313,8 +313,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER],
         images: [
-            "/techItems/iskra-zl15/front.jpg",
-            "/techItems/iskra-zl15/side.jpg",
+            "./techItems/iskra-zl15/front.jpg",
+            "./techItems/iskra-zl15/side.jpg",
         ],
         description:
             "В НАЛИЧИИ\n" +
@@ -379,8 +379,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_MINI, TechCategory.MINI_LOADER, TechCategory.DIESEL_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/volna-v05e/front.jpg",
-            "/techItems/volna-v05e/side.jpg",
+            "./techItems/volna-v05e/front.jpg",
+            "./techItems/volna-v05e/side.jpg",
         ],
         description:
             "VOLNA - самые доступные погрузчики, без экономии на ключевых узлах.\n" +
@@ -448,8 +448,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_MINI, TechCategory.MINI_LOADER, TechCategory.DIESEL_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/volna-v05g/front.jpg",
-            "/techItems/volna-v05g/side.jpg",
+            "./techItems/volna-v05g/front.jpg",
+            "./techItems/volna-v05g/side.jpg",
         ],
         description:
             "VOLNA - самые доступные погрузчики, без экономии на ключевых узлах.\n" +
@@ -509,8 +509,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.TELESCOPIC_HANDLER, TechCategory.MINI_LOADER, TechCategory.AGRICULTURAL_LOADER],
         images: [
-            "/techItems/goodwork-tl800e/front.jpg",
-            "/techItems/goodwork-tl800e/side.jpg",
+            "./techItems/goodwork-tl800e/front.jpg",
+            "./techItems/goodwork-tl800e/side.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -564,8 +564,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.TELESCOPIC_HANDLER, TechCategory.MINI_LOADER, TechCategory.DIESEL_LOADER],
         images: [
-            "/techItems/iskra-zl15f/front.jpg",
-            "/techItems/iskra-zl15f/side.jpg",
+            "./techItems/iskra-zl15f/front.jpg",
+            "./techItems/iskra-zl15f/side.jpg",
         ],
         description:
             "Телескопические погрузчики ISKRA в НАЛИЧИИ\n" +
@@ -635,8 +635,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER],
         images: [
-            "/techItems/iskra-zl15f/front.jpg",
-            "/techItems/iskra-zl15f/side.jpg",
+            "./techItems/iskra-zl15f/front.jpg",
+            "./techItems/iskra-zl15f/side.jpg",
         ],
         description:
             "Фронтальные погрузчики ISKRA в НАЛИЧИИ\n" +
@@ -707,8 +707,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER],
         images: [
-            "/techItems/iskra-zl20/front.jpg",
-            "/techItems/iskra-zl20/side.jpg",
+            "./techItems/iskra-zl20/front.jpg",
+            "./techItems/iskra-zl20/side.jpg",
         ],
         description:
             "Фронтальные погрузчики ISKRA в НАЛИЧИИ\n" +
@@ -780,8 +780,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_UNIVERSAL, TechCategory.FRONT_LOADER_1_TON, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.AGRICULTURAL_LOADER, TechCategory.FOREST_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/iskra-zl20e/front.jpg",
-            "/techItems/iskra-zl20e/side.jpg",
+            "./techItems/iskra-zl20e/front.jpg",
+            "./techItems/iskra-zl20e/side.jpg",
         ],
         description:
             "Фронтальные погрузчики ISKRA - эксклюзивный бренд без аналогов в РК\n" +
@@ -868,8 +868,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_UNIVERSAL, TechCategory.FRONT_LOADER_1_TON, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.FOREST_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/zvezda-zl20g/front.jpg",
-            "/techItems/zvezda-zl20g/side.jpg",
+            "./techItems/zvezda-zl20g/front.jpg",
+            "./techItems/zvezda-zl20g/side.jpg",
         ],
         description:
             "Фронтальные погрузчики ZVEZDA - эксклюзивный бренд без аналогов в РК\n" +
@@ -958,8 +958,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_UNIVERSAL, TechCategory.FRONT_LOADER_1_TON, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.FOREST_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/volna-v101/side.jpg",
-            "/techItems/volna-v101/front.jpg",
+            "./techItems/volna-v101/side.jpg",
+            "./techItems/volna-v101/front.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1027,8 +1027,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_UNIVERSAL, TechCategory.FRONT_LOADER_1_TON, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.AGRICULTURAL_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/volna-v101e/front.jpg",
-            "/techItems/volna-v101e/back.jpg",
+            "./techItems/volna-v101e/front.jpg",
+            "./techItems/volna-v101e/back.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1099,8 +1099,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_UNIVERSAL, TechCategory.FRONT_LOADER_1_TON, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.FOREST_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/goodwork-lx180f/front.jpg",
-            "/techItems/goodwork-lx180f/side.jpg",
+            "./techItems/goodwork-lx180f/front.jpg",
+            "./techItems/goodwork-lx180f/side.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1187,8 +1187,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.TELESCOPIC_HANDLER, TechCategory.DIESEL_LOADER],
         images: [
-            "/techItems/goodwork-tl1800g/front.jpg",
-            "/techItems/goodwork-tl1800g/side.jpg",
+            "./techItems/goodwork-tl1800g/front.jpg",
+            "./techItems/goodwork-tl1800g/side.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1274,8 +1274,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_UNIVERSAL, TechCategory.FRONT_LOADER_1_TON, TechCategory.FRONT_LOADER_1M3, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.FOREST_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/volna-v102/front.jpg",
-            "/techItems/volna-v102/side.jpg",
+            "./techItems/volna-v102/front.jpg",
+            "./techItems/volna-v102/side.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1341,8 +1341,8 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER],
         images: [
-            "/techItems/iskra-zl28/front.jpg",
-            "/techItems/iskra-zl28/side.jpg",
+            "./techItems/iskra-zl28/front.jpg",
+            "./techItems/iskra-zl28/side.jpg",
         ],
         description:
             "Фронтальные погрузчики ISKRA в НАЛИЧИИ\n" +
@@ -1415,10 +1415,10 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_UNIVERSAL, TechCategory.FRONT_LOADER_1_TON, TechCategory.FRONT_LOADER_1M3, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.FOREST_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/zvezda-zl28g/front.jpg",
-            "/techItems/zvezda-zl28g/side.jpg",
-            "/techItems/zvezda-zl28g/back.jpg",
-            "/techItems/zvezda-zl28g/engine.jpg",
+            "./techItems/zvezda-zl28g/front.jpg",
+            "./techItems/zvezda-zl28g/side.jpg",
+            "./techItems/zvezda-zl28g/back.jpg",
+            "./techItems/zvezda-zl28g/engine.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1480,10 +1480,10 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.TELESCOPIC_HANDLER, TechCategory.DIESEL_LOADER],
         images: [
-            "/techItems/goodwork-tl2800g/front.jpg",
-            "/techItems/goodwork-tl2800g/side.jpg",
-            "/techItems/goodwork-tl2800g/back.jpg",
-            "/techItems/goodwork-tl2800g/cabin.jpg",
+            "./techItems/goodwork-tl2800g/front.jpg",
+            "./techItems/goodwork-tl2800g/side.jpg",
+            "./techItems/goodwork-tl2800g/back.jpg",
+            "./techItems/goodwork-tl2800g/cabin.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1568,10 +1568,10 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_GREAT, TechCategory.FRONT_LOADER_2_TON, TechCategory.FRONT_LOADER_1M3, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.FOREST_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/iskra-zl30/front.jpg",
-            "/techItems/iskra-zl30/side.jpg",
-            "/techItems/iskra-zl30/back.jpg",
-            "/techItems/iskra-zl30/engine.jpg",
+            "./techItems/iskra-zl30/front.jpg",
+            "./techItems/iskra-zl30/side.jpg",
+            "./techItems/iskra-zl30/back.jpg",
+            "./techItems/iskra-zl30/engine.jpg",
         ],
         description:
             "Фронтальные погрузчики ISKRA в НАЛИЧИИ\n" +
@@ -1644,10 +1644,10 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_GREAT, TechCategory.FRONT_LOADER_2_TON, TechCategory.FRONT_LOADER_1M3, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/volna-v103/front.jpg",
-            "/techItems/volna-v103/side.jpg",
-            "/techItems/volna-v103/back.jpg",
-            "/techItems/volna-v103/engine.jpg",
+            "./techItems/volna-v103/front.jpg",
+            "./techItems/volna-v103/side.jpg",
+            "./techItems/volna-v103/back.jpg",
+            "./techItems/volna-v103/engine.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1707,10 +1707,10 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.TELESCOPIC_HANDLER],
         images: [
-            "/techItems/zvezda-ts2500/front.jpg",
-            "/techItems/zvezda-ts2500/side.jpg",
-            "/techItems/zvezda-ts2500/back.jpg",
-            "/techItems/zvezda-ts2500/cabin.jpg",
+            "./techItems/zvezda-ts2500/front.jpg",
+            "./techItems/zvezda-ts2500/side.jpg",
+            "./techItems/zvezda-ts2500/back.jpg",
+            "./techItems/zvezda-ts2500/cabin.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1790,10 +1790,10 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_GREAT, TechCategory.FRONT_LOADER_2_TON, TechCategory.FRONT_LOADER_1M3, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.FOREST_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/goodwork-lx300g/front.jpg",
-            "/techItems/goodwork-lx300g/side.jpg",
-            "/techItems/goodwork-lx300g/back.jpg",
-            "/techItems/goodwork-lx300g/cabin.jpg",
+            "./techItems/goodwork-lx300g/front.jpg",
+            "./techItems/goodwork-lx300g/side.jpg",
+            "./techItems/goodwork-lx300g/back.jpg",
+            "./techItems/goodwork-lx300g/cabin.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1860,10 +1860,10 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.FRONT_LOADER_GREAT, TechCategory.FRONT_LOADER_2_TON, TechCategory.FRONT_LOADER_1M3, TechCategory.DIESEL_LOADER, TechCategory.CONSTRUCTIONAL_LOADER, TechCategory.FOREST_LOADER, TechCategory.SNOW_LOADER],
         images: [
-            "/techItems/zvezda-zl32/front.jpg",
-            "/techItems/zvezda-zl32/side.jpg",
-            "/techItems/zvezda-zl32/back.jpg",
-            "/techItems/zvezda-zl32/cabin.jpg",
+            "./techItems/zvezda-zl32/front.jpg",
+            "./techItems/zvezda-zl32/side.jpg",
+            "./techItems/zvezda-zl32/back.jpg",
+            "./techItems/zvezda-zl32/cabin.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1926,9 +1926,9 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.TELESCOPIC_HANDLER, TechCategory.DIESEL_LOADER, TechCategory.AGRICULTURAL_LOADER],
         images: [
-            "/techItems/volna-v3007/front.jpg",
-            "/techItems/volna-v3007/side.jpg",
-            "/techItems/volna-v3007/back.jpg",
+            "./techItems/volna-v3007/front.jpg",
+            "./techItems/volna-v3007/side.jpg",
+            "./techItems/volna-v3007/back.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -1991,10 +1991,10 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.TELESCOPIC_HANDLER],
         images: [
-            "/techItems/zvezda-t3000/front.jpg",
-            "/techItems/zvezda-t3000/side.jpg",
-            "/techItems/zvezda-t3000/cabin.jpg",
-            "/techItems/zvezda-t3000/engine.jpg",
+            "./techItems/zvezda-t3000/front.jpg",
+            "./techItems/zvezda-t3000/side.jpg",
+            "./techItems/zvezda-t3000/cabin.jpg",
+            "./techItems/zvezda-t3000/engine.jpg",
         ],
         description:
             "Телескопические погрузчики ZVEZDA с доставкой по всей России от 1 дня!\n" +
@@ -2053,10 +2053,10 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.TELESCOPIC_HANDLER, TechCategory.DIESEL_LOADER, TechCategory.AGRICULTURAL_LOADER],
         images: [
-            "/techItems/zvezda-tl3000/front.jpg",
-            "/techItems/zvezda-tl3000/side.jpg",
-            "/techItems/zvezda-tl3000/back.jpg",
-            "/techItems/zvezda-tl3000/cabin.jpg",
+            "./techItems/zvezda-tl3000/front.jpg",
+            "./techItems/zvezda-tl3000/side.jpg",
+            "./techItems/zvezda-tl3000/back.jpg",
+            "./techItems/zvezda-tl3000/cabin.jpg",
         ],
         description:
             "Цена с утилизационным сбором!\n" +
@@ -2116,9 +2116,9 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.BACKHOE_LOADER],
         images: [
-            "/techItems/zvezda-3sx-pro/front.jpg",
-            "/techItems/zvezda-3sx-pro/side.jpg",
-            "/techItems/zvezda-3sx-pro/unfolded.jpg",
+            "./techItems/zvezda-3sx-pro/front.jpg",
+            "./techItems/zvezda-3sx-pro/side.jpg",
+            "./techItems/zvezda-3sx-pro/unfolded.jpg",
         ],
         description:
             "Экскаватор-погрузчики ZVEZDA в НАЛИЧИИ!\n" +
@@ -2171,9 +2171,9 @@ export const techItems: TechItem[] = [
         newPrice: null,
         category: [TechCategory.FRONT_LOADER, TechCategory.BACKHOE_LOADER],
         images: [
-            "/techItems/zvezda-4sx-pro/front.jpg",
-            "/techItems/zvezda-4sx-pro/side.jpg",
-            "/techItems/zvezda-4sx-pro/unfolded.jpg",
+            "./techItems/zvezda-4sx-pro/front.jpg",
+            "./techItems/zvezda-4sx-pro/side.jpg",
+            "./techItems/zvezda-4sx-pro/unfolded.jpg",
         ],
         description:
             "Экскаватор-погрузчики ZVEZDA в НАЛИЧИИ!\n" +

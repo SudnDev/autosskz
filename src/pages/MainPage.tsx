@@ -26,7 +26,7 @@ const MainPage = () => {
     };
 
     const [weightRange, setWeightRange] = useState([400, 2400]);
-    const [volumeRange, setVolumeRange] = useState([200, 1300]);
+    const [volumeRange, setVolumeRange] = useState([200, 2000]);
     const [selectedBrands, setSelectedBrands] = useState({
         [TechBrand.GoodWork]: false,
         [TechBrand.Zvezda]: false,
@@ -195,7 +195,7 @@ const MainPage = () => {
                                     value={volumeRange}
                                     onValueChange={setVolumeRange}
                                     min={200}
-                                    max={1300}
+                                    max={2000}
                                     step={50}
                                 >
                                     <Slider.Track className="bg-orange-200 border-1 border-orange-900 relative grow rounded-full h-2">

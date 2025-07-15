@@ -11,9 +11,9 @@ function Header() {
 
             <div className="grid max-sm:grid-rows-3 grid-rows-2 lg:pl-6 pt-3 max-sm:pt-8 mb-5 w-full">
                 <div className="flex flex-col sm:flex-row items-center justify-center md:justify-between w-full gap-4">
-                    <a href="/">
+                    <a href="/autosskz/">
                         <img
-                            src="/header/logo.png"
+                            src="./header/logo.png"
                             alt="Авто Спец Сервис КЗ"
                             className="h-9 mt-2 lg:h-14 drop-shadow-lg"
                             style={{ animationDuration: "15s" }}
@@ -22,11 +22,11 @@ function Header() {
 
                     <div className="flex flex-col sm:flex-row sm:items-center gap-4 pr-3">
                         <a className="flex items-center gap-2 max-lg:hidden" href="mailto:avtospetsserviskz@yandex.kz" target="_blank">
-                            <img src="/header/email.png" alt="Email" className="w-6 h-6" />
+                            <img src="./header/email.png" alt="Email" className="w-6 h-6" />
                             <span className="text-gray-700 font-bold text-xl">avtospetsserviskz@yandex.kz</span>
                         </a>
                         <a className="flex items-center gap-2" href="tel:+77024487217" target="_blank">
-                            <img src="/header/phone.png" alt="Phone Number" className="w-6 h-6" />
+                            <img src="./header/phone.png" alt="Phone Number" className="w-6 h-6" />
                             <span className="text-gray-700 font-bold text-xl">+7 702 448 7217</span>
                         </a>
                         <button
